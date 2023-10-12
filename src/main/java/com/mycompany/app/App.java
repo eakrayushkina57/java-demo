@@ -12,5 +12,14 @@ public class App {
         DemoB b = new DemoB();
         b.method1();
 
+        // b.methodCheckedException();
+        // try {
+        //     b.methodCheckedException();
+        // } catch(Exception e) {
+        //     System.out.println(e);
+        // }
+
+        b.methodUncheckedError();
+
     }
 }

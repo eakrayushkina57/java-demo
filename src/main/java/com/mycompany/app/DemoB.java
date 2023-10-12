@@ -11,4 +11,12 @@ public class DemoB extends DemoA {
         }
     }
 
+    public void methodCheckedException() throws Exception {
+        throw new Exception("Some checked error");
+    }
+
+    public void methodUncheckedError() {
+        throw new Error("Some system error");
+    }
+
 }
