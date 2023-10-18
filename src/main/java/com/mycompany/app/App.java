@@ -19,7 +19,9 @@ public class App {
         //     System.out.println(e);
         // }
 
-        b.methodUncheckedError();
+        //b.methodUncheckedError();
+
+        b.methodArray();
 
     }
 }
