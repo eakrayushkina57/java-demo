@@ -21,7 +21,9 @@ public class App {
 
         //b.methodUncheckedError();
 
-        b.methodArray();
+        //b.methodArray();
+
+        b.methodDArray();
 
     }
 }

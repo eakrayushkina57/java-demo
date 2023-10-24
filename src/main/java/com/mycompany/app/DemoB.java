@@ -1,5 +1,7 @@
 package com.mycompany.app;
 
+import java.util.ArrayList;
+
 /**
  */
 public class DemoB extends DemoA {
@@ -38,4 +40,18 @@ public class DemoB extends DemoA {
         }
     }
 
+    public void methodDArray() {
+        
+        ArrayList<Integer> nums = new ArrayList<>();
+        
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+
+        int nums_size = nums.size();
+            System.out.println(nums_size);
+
+        //for (int i = 0; i < 10; i++) {
+            //System.out.println(nums_size[i]);
+    }
 }
