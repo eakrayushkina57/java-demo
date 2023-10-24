@@ -51,7 +51,8 @@ public class DemoB extends DemoA {
         int nums_size = nums.size();
             System.out.println(nums_size);
 
-        //for (int i = 0; i < 10; i++) {
-            //System.out.println(nums_size[i]);
+        for (int i = 0; i < nums_size; i++) {
+            System.out.println(nums.get(i));
+        }
     }
 }
