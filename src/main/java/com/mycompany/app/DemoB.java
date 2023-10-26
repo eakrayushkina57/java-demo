@@ -1,11 +1,17 @@
 package com.mycompany.app;
 
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  */
 public class DemoB extends DemoA {
+    private static final String Map = null;
+
     public void method1() {
         System.out.println(this.fieldProtected);
 
@@ -49,11 +55,32 @@ public class DemoB extends DemoA {
         nums.add(2);
         nums.add(3);
 
-        int numsSize = nums.size();
-        System.out.println(numsSize);
+        System.out.println(nums);
 
-        for (int i = 0; i < numsSize; i++) {
-            System.out.println(nums.get(i));
-        }
+        //int numsSize = nums.size();
+        //System.out.println(numsSize);
+
+        //for (int i = 0; i < numsSize; i++) {
+        //    System.out.println(nums.get(i));
+        //}
+
+        Set<String> s1 = new HashSet<>();
+
+        s1.add("string1");
+        s1.add("string2");
+        s1.add("string1");
+
+        System.out.println(s1);
+
+        Map<Integer, String> map = new HashMap<>();
+
+        map.put(1, "string0");
+        map.put(2, "string1");
+        map.put(3, "string0");
+        map.put(4, "string1");
+
+        System.out.println(map);
     }
+        
+
 }
